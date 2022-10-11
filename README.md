@@ -1,2 +1,3 @@
-React based Tic Tac Toe.
-You can learn React
+React based Tic Tac Toe.<br>
+<br>
+<img src="./git_src/sc.png"/>
