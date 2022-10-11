@@ -1,3 +1,3 @@
 React based Tic Tac Toe.<br>
 <br>
-<img src="./git_src/sc.png"/>
+<img width="300" src="./git_src/sc.png"/>
