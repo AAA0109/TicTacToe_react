@@ -1,0 +1,11 @@
+.board {
+    width: 600px;
+	height: 600px;
+	margin: 15px auto;
+    background-color: var(--bgc);
+    color: var(--text-color);
+    border: 6px solid var(--border);
+    border-radius: 10px;
+	display: grid;
+	grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}

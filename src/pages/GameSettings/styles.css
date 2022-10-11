@@ -1,0 +1,87 @@
+.GameSettings {
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: var(--bgc);
+}
+
+
+.themesSets {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.themesSets ul {
+    width: 340px;
+    
+    margin-bottom: 40px;
+    
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.rounds {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+
+.rounds ul {
+    
+    width: 270px;
+    
+    margin-left: 20px;
+    
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.rounds ul li input {
+    padding: 10px 30px
+}
+
+.rounds h1, .players h1 {
+    color: var(--text-color);
+}
+
+
+.players {
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    height: 170px;
+    margin-top: 50px;
+}
+
+.players div {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+}
+
+.inputNickname {
+    height: 30px;
+    border: 1px solid grey;
+    padding: 10px;
+    outline: none;
+    transition: border 0.2s;
+    border-radius: 3px;
+}
+
+.inputNickname:hover {
+    border: 1px solid black;
+}
